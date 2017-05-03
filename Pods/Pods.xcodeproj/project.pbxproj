@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C681911E7730B3E04E358DBE64D8D39 /* MTTCircularSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5C77A05E3A4C02B8CAB1D6608AC839 /* MTTCircularSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310453E87E4F198A85A5F701166FF10C /* MTTCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 26193771979108A141C8F517A2FA1D93 /* MTTCircularSlider.m */; };
+		3F3DB6248FEFCB369F2A916BFB4DAD44 /* Pods-Ti.MTTCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 580EF95A8231F40261F025B326D67C09 /* Pods-Ti.MTTCircularSlider-dummy.m */; };
+		48439EDF684711C0771A570FDA13A2BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		59C6504FFE4C8DBAEEC9E3392DD6B66A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CD990C03C8CFFF5878DBD551817C4F1A /* MTTCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 085740AA1C981989431CB3F1F1280FDB /* MTTCircularSlider-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C689A8D1650EB12DCB8248ED5E4CB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E752E326D5AD6B90C5310D3E7B80F1F;
+			remoteInfo = MTTCircularSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085740AA1C981989431CB3F1F1280FDB /* MTTCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTTCircularSlider-dummy.m"; sourceTree = "<group>"; };
+		0B11C8A758BA555607ED7708ED5D8009 /* MTTCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTTCircularSlider-prefix.pch"; sourceTree = "<group>"; };
+		14110D41BBA89D8792DA277E10F2E656 /* Pods-Ti.MTTCircularSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ti.MTTCircularSlider.release.xcconfig"; sourceTree = "<group>"; };
+		26193771979108A141C8F517A2FA1D93 /* MTTCircularSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTTCircularSlider.m; path = MTTCircularSlider/MTTCircularSlider.m; sourceTree = "<group>"; };
+		3413A3B9A09A6AD8A7CDE6D1D982AFA6 /* libMTTCircularSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTTCircularSlider.a; path = libMTTCircularSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B15E928AF6A6CF5AAF02AC394EC6DF4 /* Pods-Ti.MTTCircularSlider-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ti.MTTCircularSlider-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CF9824053381FCC469311158ED6BAA3 /* Pods-Ti.MTTCircularSlider-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ti.MTTCircularSlider-frameworks.sh"; sourceTree = "<group>"; };
+		4E872C55D486AEBD0E1BCA9F0FE1FC99 /* Pods-Ti.MTTCircularSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ti.MTTCircularSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		5691B47BF71AF08C55D225FBE3E05A3B /* libPods-Ti.MTTCircularSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Ti.MTTCircularSlider.a"; path = "libPods-Ti.MTTCircularSlider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580EF95A8231F40261F025B326D67C09 /* Pods-Ti.MTTCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ti.MTTCircularSlider-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBE3C53C1E2E6708A3913217D49D9137 /* Pods-Ti.MTTCircularSlider-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ti.MTTCircularSlider-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEE286C988FF4BB88A0001478BDECABA /* Pods-Ti.MTTCircularSlider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ti.MTTCircularSlider-acknowledgements.plist"; sourceTree = "<group>"; };
+		F96BC56AC7304E1306ADD7CC4FB05D9B /* MTTCircularSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTTCircularSlider.xcconfig; sourceTree = "<group>"; };
+		FD5C77A05E3A4C02B8CAB1D6608AC839 /* MTTCircularSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTTCircularSlider.h; path = MTTCircularSlider/MTTCircularSlider.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36A235BB4E98B1FAE471B126EAD9F869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48439EDF684711C0771A570FDA13A2BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BAACA3A094D228DE462D35DC9E2D96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C6504FFE4C8DBAEEC9E3392DD6B66A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36E236AE23D8A155AB3D14F0EAE64D91 /* MTTCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C77A05E3A4C02B8CAB1D6608AC839 /* MTTCircularSlider.h */,
+				26193771979108A141C8F517A2FA1D93 /* MTTCircularSlider.m */,
+				5019549BC5B96576FCE368E3F80DE7A6 /* Support Files */,
+			);
+			name = MTTCircularSlider;
+			path = MTTCircularSlider;
+			sourceTree = "<group>";
+		};
+		5019549BC5B96576FCE368E3F80DE7A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96BC56AC7304E1306ADD7CC4FB05D9B /* MTTCircularSlider.xcconfig */,
+				085740AA1C981989431CB3F1F1280FDB /* MTTCircularSlider-dummy.m */,
+				0B11C8A758BA555607ED7708ED5D8009 /* MTTCircularSlider-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTTCircularSlider";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CA41B380F780D822DAE64974FE32E1AC /* Pods */,
+				E6E7AC83791E5BF0345D7F554B0B42AD /* Products */,
+				E88EFBA6E5FED6983FE95DE798813754 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA41B380F780D822DAE64974FE32E1AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36E236AE23D8A155AB3D14F0EAE64D91 /* MTTCircularSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D76EC097AE27D2D2D2D5593B4D8FD63F /* Pods-Ti.MTTCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				3B15E928AF6A6CF5AAF02AC394EC6DF4 /* Pods-Ti.MTTCircularSlider-acknowledgements.markdown */,
+				CEE286C988FF4BB88A0001478BDECABA /* Pods-Ti.MTTCircularSlider-acknowledgements.plist */,
+				580EF95A8231F40261F025B326D67C09 /* Pods-Ti.MTTCircularSlider-dummy.m */,
+				4CF9824053381FCC469311158ED6BAA3 /* Pods-Ti.MTTCircularSlider-frameworks.sh */,
+				BBE3C53C1E2E6708A3913217D49D9137 /* Pods-Ti.MTTCircularSlider-resources.sh */,
+				4E872C55D486AEBD0E1BCA9F0FE1FC99 /* Pods-Ti.MTTCircularSlider.debug.xcconfig */,
+				14110D41BBA89D8792DA277E10F2E656 /* Pods-Ti.MTTCircularSlider.release.xcconfig */,
+			);
+			name = "Pods-Ti.MTTCircularSlider";
+			path = "Target Support Files/Pods-Ti.MTTCircularSlider";
+			sourceTree = "<group>";
+		};
+		E6E7AC83791E5BF0345D7F554B0B42AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3413A3B9A09A6AD8A7CDE6D1D982AFA6 /* libMTTCircularSlider.a */,
+				5691B47BF71AF08C55D225FBE3E05A3B /* libPods-Ti.MTTCircularSlider.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E88EFBA6E5FED6983FE95DE798813754 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76EC097AE27D2D2D2D5593B4D8FD63F /* Pods-Ti.MTTCircularSlider */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FD8049A17EFE02CA4C71496728782484 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C681911E7730B3E04E358DBE64D8D39 /* MTTCircularSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68616A8BA41230BBF460C8087F6D7F0E /* Pods-Ti.MTTCircularSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42739E1259539AEBD30DFD2B3E2585BC /* Build configuration list for PBXNativeTarget "Pods-Ti.MTTCircularSlider" */;
+			buildPhases = (
+				5F95211B4E0C83EDB60A7FBEFB0F3B2E /* Sources */,
+				6BAACA3A094D228DE462D35DC9E2D96F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA38D592F03D468FC3EF049CCE30545 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ti.MTTCircularSlider";
+			productName = "Pods-Ti.MTTCircularSlider";
+			productReference = 5691B47BF71AF08C55D225FBE3E05A3B /* libPods-Ti.MTTCircularSlider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E752E326D5AD6B90C5310D3E7B80F1F /* MTTCircularSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E84B4CDEE8D09A70746ABC8C568F4E /* Build configuration list for PBXNativeTarget "MTTCircularSlider" */;
+			buildPhases = (
+				8511AEA91D46D469FABE396F744087B9 /* Sources */,
+				36A235BB4E98B1FAE471B126EAD9F869 /* Frameworks */,
+				FD8049A17EFE02CA4C71496728782484 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTTCircularSlider;
+			productName = MTTCircularSlider;
+			productReference = 3413A3B9A09A6AD8A7CDE6D1D982AFA6 /* libMTTCircularSlider.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6E7AC83791E5BF0345D7F554B0B42AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E752E326D5AD6B90C5310D3E7B80F1F /* MTTCircularSlider */,
+				68616A8BA41230BBF460C8087F6D7F0E /* Pods-Ti.MTTCircularSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F95211B4E0C83EDB60A7FBEFB0F3B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3DB6248FEFCB369F2A916BFB4DAD44 /* Pods-Ti.MTTCircularSlider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8511AEA91D46D469FABE396F744087B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD990C03C8CFFF5878DBD551817C4F1A /* MTTCircularSlider-dummy.m in Sources */,
+				310453E87E4F198A85A5F701166FF10C /* MTTCircularSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA38D592F03D468FC3EF049CCE30545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTTCircularSlider;
+			target = 8E752E326D5AD6B90C5310D3E7B80F1F /* MTTCircularSlider */;
+			targetProxy = 1C689A8D1650EB12DCB8248ED5E4CB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51A6B560F393193162C3AF3BA84E6CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96BC56AC7304E1306ADD7CC4FB05D9B /* MTTCircularSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MTTCircularSlider/MTTCircularSlider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C19A2A73159FB7618301CA0706A8D27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14110D41BBA89D8792DA277E10F2E656 /* Pods-Ti.MTTCircularSlider.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D8CCDE2D06813967BECC4407F8D6ADFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96BC56AC7304E1306ADD7CC4FB05D9B /* MTTCircularSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MTTCircularSlider/MTTCircularSlider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC01152908F951D5C3A939A56D13F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E872C55D486AEBD0E1BCA9F0FE1FC99 /* Pods-Ti.MTTCircularSlider.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42739E1259539AEBD30DFD2B3E2585BC /* Build configuration list for PBXNativeTarget "Pods-Ti.MTTCircularSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC01152908F951D5C3A939A56D13F27 /* Debug */,
+				C19A2A73159FB7618301CA0706A8D27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E84B4CDEE8D09A70746ABC8C568F4E /* Build configuration list for PBXNativeTarget "MTTCircularSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A6B560F393193162C3AF3BA84E6CD5 /* Debug */,
+				D8CCDE2D06813967BECC4407F8D6ADFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

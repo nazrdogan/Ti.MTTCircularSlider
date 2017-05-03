@@ -1,0 +1,12 @@
+PODS:
+  - MTTCircularSlider (1.1.0)
+
+DEPENDENCIES:
+  - MTTCircularSlider
+
+SPEC CHECKSUMS:
+  MTTCircularSlider: b0a106e19822d593101b7c8e78f8f9da2102dc2c
+
+PODFILE CHECKSUM: ffa564f0cf9839e04cc703d036522a5c03aff58f
+
+COCOAPODS: 1.2.0
